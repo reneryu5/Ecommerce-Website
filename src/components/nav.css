@@ -1,0 +1,155 @@
+/* Base Styles */
+
+/* Navbar background */
+.navbar {
+  background-color: #f8f9fa; /* Light background color */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Brand logo */
+.navbar-brand {
+  font-family: 'Helvetica Neue', sans-serif; /* Modern font */
+  font-size: 1.5rem; /* Larger font size */
+  font-weight: bold; /* Bold text */
+  color: #000; /* Black color */
+}
+
+/* Navbar links */
+.nav-link {
+  font-family: 'Helvetica Neue', sans-serif; /* Modern font */
+  font-size: 1rem; /* Standard font size */
+  font-weight: 500; /* Medium weight */
+  color: #000; /* Black color */
+  transition: color 0.3s, transform 0.3s; /* Smooth color and transform transition */
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #000; /* Black color on hover */
+  transform: scale(1.1); /* Slightly enlarge the link on hover */
+}
+
+/* Search bar */
+.form-control {
+  border-radius: 0; /* No border radius for a modern look */
+  border: 2px solid #ced4da; /* Thicker border */
+}
+
+.form-control:focus {
+  border-color: #495057; /* Darker border on focus */
+  box-shadow: none; /* No shadow */
+}
+
+/* Search button */
+.btn-dark {
+  background-color: #343a40; /* Dark background color */
+  border: none; /* No border */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth background color and transform transition */
+}
+
+.btn-dark:hover,
+.btn-dark:focus {
+  background-color: #495057; /* Darker background on hover */
+  transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+  border-radius: 0; /* No border radius for a modern look */
+  border: 2px solid #ced4da; /* Thicker border */
+}
+
+.dropdown-item {
+  font-family: 'Helvetica Neue', sans-serif; /* Modern font */
+  font-size: 1rem; /* Standard font size */
+  color: #000; /* Black color */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth background color and transform transition */
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  background-color: #f8f9fa; /* Light background on hover */
+  transform: scale(1.05); /* Slightly enlarge the item on hover */
+}
+
+/* Cart item count */
+.cart-item-count {
+  top: 12px; /* Adjust top position */
+  right: 12px; /* Adjust right position */
+  background-color: #f44336; /* Red background color */
+  color: white; /* White text color */
+  border-radius: 50%; /* Make it circular */
+  padding: 0.25em 0.5em; /* Add some padding */
+  font-size: 0.8rem; /* Slightly smaller font size */
+}
+
+/* Profile and cart icons */
+.nav-link svg {
+  font-size: 1.2rem; /* Larger icons */
+  color: #000; /* Black color */
+  transition: color 0.3s, transform 0.3s; /* Smooth color and transform transition */
+}
+
+.nav-link:hover svg,
+.nav-link:focus svg {
+  color: #000; /* Black color on hover */
+  transform: scale(1.1); /* Slightly enlarge the icon on hover */
+}
+
+/* Responsive Styles */
+
+/* Large Devices (Desktops, 992px and up) */
+@media (min-width: 992px) {
+  .navbar-brand {
+    font-size: 1.75rem;
+  }
+
+  .nav-link {
+    font-size: 1.125rem;
+  }
+}
+
+/* Medium Devices (Tablets, 768px and up) */
+@media (min-width: 768px) {
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+
+  .nav-link {
+    font-size: 1rem;
+  }
+}
+
+/* Small Devices (Phones, 576px and up) */
+@media (min-width: 576px) {
+  .navbar-brand {
+    font-size: 1.25rem;
+  }
+
+  .nav-link {
+    font-size: 0.9rem;
+  }
+}
+
+/* Extra Small Devices (Phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .navbar-brand {
+    font-size: 1rem;
+  }
+
+  .nav-link {
+    font-size: 0.75rem;
+  }
+
+  .navbar {
+    padding: 0.5rem 1rem;
+  }
+
+  .dropdown-item {
+    font-size: 0.875rem;
+  }
+
+  .form-control {
+    font-size: 0.875rem;
+  }
+}

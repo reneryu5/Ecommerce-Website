@@ -1,0 +1,109 @@
+/* categories.css */
+.categories-cat {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .categories-indicator {
+    width: 10px;
+    height: 30px;
+    background-color: #f44336;
+    margin-right: 10px;
+  }
+  
+  .categories-text {
+    color: #f44336;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+.categories-section {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    margin: 20px 0;
+    position: relative;
+  }
+  
+  .categories-section h2 {
+    margin-bottom: 20px;
+    font-weight: normal;
+  }
+  
+  .categories-container {
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+    padding: 10px 0;
+  }
+  
+  .categories-container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .category-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s, color 0.3s;
+  }
+  
+  .category-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-color: #f44336;
+    color: #f44336;
+  }
+  
+  .category-icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: black;
+    transition: color 0.3s;
+  }
+  
+  .category-item:hover .category-icon {
+    color: #f44336;
+  }
+  
+  .category-name {
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .category-item.active {
+    border-color: #f44336;
+    background-color: #ffebee;
+  }
+  
+  .arrows {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  .arrow-button {
+    background-color: #f0f0f0;
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 50%;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .arrow-button:hover {
+    background-color: #f44336;
+    color: white;
+  }
+  

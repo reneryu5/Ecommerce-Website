@@ -1,0 +1,55 @@
+/* Footer container */
+footer {
+  background-color: #000000; /* Dark background color */
+  color: #fff; /* Light text color */
+  padding-top: 50px; /* Top padding */
+  width: 142%; /* Make sure footer spans the full width */
+  margin-top: auto; 
+}
+
+/* Footer headings */
+h5 {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+/* Footer links and text */
+a, p {
+  color: #ccc;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff; /* White text color on hover */
+}
+
+/* Footer input field */
+.input-group {
+  margin-top: 5px;
+}
+
+/* Footer icons */
+.fa {
+  font-size: 1.2rem; /* Adjust icon size */
+  margin-right: 10px;
+}
+
+/* Square button style */
+.btn-square {
+  width: 40px; /* Adjust button width */
+  height: 40px; /* Adjust button height */
+  border-radius: 0; /* Remove button border radius */
+  padding: 0; /* Remove default padding */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  footer {
+    padding-top: 30px; 
+  }
+
+  .col-md-3 {
+    margin-bottom: 30px; /* Adjust column margin */
+  }
+}

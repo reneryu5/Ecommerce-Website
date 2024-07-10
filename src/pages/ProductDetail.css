@@ -1,0 +1,191 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.product-detail {
+  padding: 20px;
+  flex: 1;
+}
+
+.breadcrumbs {
+  font-size: 16px;
+  color: #6c757d;
+  margin-bottom: 20px;
+}
+
+.product-detail-images {
+  text-align: center;
+}
+
+.product-detail-image-main {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  max-height: 400px;
+}
+
+.product-detail-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #343a40;
+}
+
+.product-detail-rating {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.star {
+  color: #ffc107;
+  margin-right: 5px;
+}
+
+.reviews {
+  margin-left: 10px;
+  color: #6c757d;
+}
+
+.product-detail-stock {
+  font-size: 18px;
+  color: #28a745;
+  margin-bottom: 10px;
+}
+
+.product-detail-price {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #f44336;
+}
+
+.product-detail-description {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #4a4a4a;
+}
+
+.product-detail-colors {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.color-swatch {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.product-detail-sizes {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.size-button {
+  margin-left: 10px;
+}
+
+.product-detail-actions {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.product-detail-quantity {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.quantity-button {
+  width: 40px;
+  height: 40px;
+}
+
+.buy-now-button {
+  width: auto;
+  margin-right: 10px;
+}
+
+.wishlist-button {
+  width: auto;
+}
+
+.delivery-info {
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.delivery-item {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.delivery-icon {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.product-reviews {
+  margin-top: 50px;
+}
+
+.product-reviews h3 {
+  color: #f44336;
+  margin-bottom: 20px;
+}
+
+.list-group-item {
+  border: none;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+}
+
+.list-group-item h5 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #343a40;
+}
+
+.list-group-item p {
+  margin: 10px 0;
+  color: #4a4a4a;
+}
+
+@media (min-width: 768px) {
+  .product-detail-images {
+    text-align: left;
+  }
+
+  .product-detail-title,
+  .product-detail-rating,
+  .product-detail-stock,
+  .product-detail-price,
+  .product-detail-description,
+  .product-detail-colors,
+  .product-detail-sizes,
+  .product-detail-actions,
+  .delivery-info {
+    text-align: left;
+  }
+
+  .delivery-item {
+    justify-content: flex-start;
+  }
+}

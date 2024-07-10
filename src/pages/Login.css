@@ -1,0 +1,69 @@
+.login-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .login-container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: #f8f9fa;
+  }
+  
+  .login-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-image img {
+    width: 80%;
+    max-width: 400px;
+  }
+  
+  .login-form-container {
+    flex: 1;
+    padding: 30px;
+    background-color: #ffffff;
+  }
+  
+  .login-form {
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .login-form h2 {
+    margin-bottom: 10px;
+  }
+  
+  .login-form p {
+    margin-bottom: 20px;
+    color: #6c757d;
+  }
+  
+  .form-floating {
+    margin-bottom: 1rem;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .btn-primary {
+    background-color: #f44336;
+    border-color: #f44336;
+  }
+  
+  .signup-link {
+    text-align: center;
+  }
+  
+  .signup-link a {
+    color: #007bff;
+  }
+  

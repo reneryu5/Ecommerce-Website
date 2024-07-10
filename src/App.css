@@ -1,0 +1,122 @@
+/* Base Styles */
+body {
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #333;
+}
+
+.bg-light {
+  background-color: #f8f9fa !important;
+}
+
+.carousel-caption {
+  bottom: 20%;
+}
+
+.carousel-caption h3 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.carousel-caption p {
+  font-size: 1.5rem;
+}
+
+.btn-dark {
+  background-color: #000;
+  border: none;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #000;
+}
+
+.footer {
+  margin-top: auto;
+}
+
+/* Responsive Styles */
+
+/* Large Devices (Desktops, 992px and up) */
+@media (min-width: 992px) {
+  body {
+    font-size: 1.2rem;
+  }
+
+  .carousel-caption h3 {
+    font-size: 3rem;
+  }
+
+  .carousel-caption p {
+    font-size: 2rem;
+  }
+
+  .nav-link {
+    font-size: 1.25rem;
+  }
+}
+
+/* Medium Devices (Tablets, 768px and up) */
+@media (min-width: 768px) {
+  body {
+    font-size: 1.1rem;
+  }
+
+  .carousel-caption h3 {
+    font-size: 2.75rem;
+  }
+
+  .carousel-caption p {
+    font-size: 1.75rem;
+  }
+
+  .nav-link {
+    font-size: 1.125rem;
+  }
+}
+
+/* Small Devices (Phones, 576px and up) */
+@media (min-width: 576px) {
+  body {
+    font-size: 1rem;
+  }
+
+  .carousel-caption h3 {
+    font-size: 2.25rem;
+  }
+
+  .carousel-caption p {
+    font-size: 1.25rem;
+  }
+
+  .nav-link {
+    font-size: 1rem;
+  }
+}
+
+/* Extra Small Devices (Phones, less than 576px) */
+@media (max-width: 575.98px) {
+  body {
+    font-size: 0.9rem;
+  }
+
+  .carousel-caption h3 {
+    font-size: 2rem;
+  }
+
+  .carousel-caption p {
+    font-size: 1rem;
+  }
+
+  .nav-link {
+    font-size: 0.875rem;
+  }
+
+  .carousel-caption {
+    bottom: 10%;
+  }
+}
